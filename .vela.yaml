@@ -1,8 +1,9 @@
 ---
 # This document is displaying all the required tags
 # to run a postgre database for the duration of a pipeline.
+version: 1
 steps: 
   - name: Hello World
-      image: alpine:latest
-          commands:
-                - echo "Hello, Vela User"
+    image: alpine:latest
+    commands:
+      - echo "Hello, Vela User"
