@@ -1,0 +1,8 @@
+---
+# This document is displaying all the required tags
+# to run a postgre database for the duration of a pipeline.
+steps: 
+  - name: Hello World
+      image: alpine:latest
+          commands:
+                - echo "Hello, Vela User"
